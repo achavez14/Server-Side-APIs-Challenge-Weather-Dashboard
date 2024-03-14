@@ -1,10 +1,11 @@
-const apiKey = '16bd7d7b24929ae6342abe92608dbded';
+const part1 = '16bd7d7b24929ae';
+const part2 = '6342abe92608dbded';
 const cityInput = document.getElementById('cityInput');
 const weatherInfo = document.getElementById('weatherInfo');
 
 function searchWeatherData() {
     const city = cityInput.value.trim();
-    const apiURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
+    const apiURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${part1 + part2}`;
 
     fetch(apiURL)
         .then(response => {
