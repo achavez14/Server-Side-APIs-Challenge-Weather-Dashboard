@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <div class="weather-container">
+        <h1 class="weather-dashboard-title">Weather Dashboard</h1>
+        
+        <!-- Display the date without any additional text -->
+        <div class="current-weather">
+            <div class="weather-info" id="current-weather-info">
+                <!-- Current weather data will be displayed here -->
+            </div>
+        </div>
+
+        <!-- Future Weather Forecast Section -->
+        <div class="5-Day Forecast">
+            <h2>5-Day Forecast</h2>
+            <div class="weather-info" id="future-weather-info">
+                <!-- Future weather forecast data will be displayed here -->
+            </div>
+        </div>
+
+        <!-- Search Section -->
+        <div class="search">Search for a City:
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+            <div id="weatherInfo"></div>
+        </div>
+
+        <!-- Additional Weather Info Section -->
+        <div class="weather-info">
+            <h2 id="cityName"></h2>
+            <div id="weatherDetails">
+                <!-- Weather details will be populated here dynamically -->
+            </div>
+        </div>
+
+        <!-- Add this element to display the search history -->
+        <ul id="searchHistory"></ul>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
