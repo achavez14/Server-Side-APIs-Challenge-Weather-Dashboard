@@ -8,9 +8,9 @@
 
 ### Screenshots of My Application
 
-- ![Screenshot 1](Screenshot (1).png)
-- ![Screenshot 2](Screenshot (2).png)
-- ![Screenshot 3](Screenshot (3).png)
+- ![Screenshot 1](/images/Screenshot (1).png)
+- ![Screenshot 2](/images/Screenshot (2).png)
+- ![Screenshot 3](/images/Screenshot (3).png)
 
 ## Link to Deployed Application
 
