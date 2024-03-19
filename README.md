@@ -6,9 +6,11 @@
 -I used the five-day weather forecast to retrieve weather data for cities and display it in an application.
 -I gained knowledge as to how APIs speed up development by reusing code, promoting system compatability and enabling the creation of new features by leveraging existing services. API security is crucial to protect data and ensure that only authorized users can access resources.
 
-## Screenshot
+### Screenshots of My Application
 
-Screenshot of my Application (Screenshot (1).png, Screenshot (2).png, Screenshot (3).png)
+- ![Screenshot 1](Screenshot (1).png)
+- ![Screenshot 2](Screenshot (2).png)
+- ![Screenshot 3](Screenshot (3).png)
 
 ## Link to Deployed Application
 
